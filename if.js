@@ -1,5 +1,4 @@
-import { sadik } from "./sadik";
-import { nayem } from "./sadik";
+import { sadik, nayem } from "./sadik.js";
 
 console.log("Hello Bangladesh")
 var p= `I am ${nayem} and my nephew's name is ${sadik}`;
