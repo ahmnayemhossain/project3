@@ -1,8 +1,11 @@
-import { sadik, nayem } from "./sadik.js";
+function number(){
+    return 10;
+};
 
-console.log("Hello Bangladesh")
-var p= `I am ${nayem} and my nephew's name is ${sadik}`;
-console.log(p)
+console.log(number());
 
-console.log('Sadik is a bashful boy');
-console.log('sabdi,kaunia,Rangpur')
+var num = () => {
+    return 11
+};
+
+console.log(num());
