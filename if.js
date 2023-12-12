@@ -1,11 +1,13 @@
-function number(){
-    return 10;
-};
+function displayer(some) {
+    document.getElementById("demo").innerHTML = some;
+}
 
-console.log(number());
+function calculator(num1, num2, callback) {
+    let sum = num1 + num2;
+    callback(sum);
+}
 
-var num = () => {
-    return 11
-};
-
-console.log(num());
+// Using an anonymous function as a callback
+calculator(5, 5, function(result) {
+    displayer(result);
+});
